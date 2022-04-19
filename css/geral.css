@@ -1,0 +1,112 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Gill Sans MT', sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "afterglow";
+  src: url("/fontes/afterglow-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.btn {
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  z-index: 99999;
+  position: relative;
+}
+
+h1 {
+  font-size: 3.25rem;
+  line-height: 3.5rem;
+  font-family: 'afterglow', serif;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-family: 'afterglow', serif;
+  text-align: center;line-height: 2.75rem;}
+
+h3:before {
+  content: url(/img/birds.svg);
+  margin-right: 10px;
+  
+}
+
+
+h5 {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 1rem;
+  text-transform: uppercase;
+font-weight: 700;}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  display: block;
+  color: #41424A;
+  font-style: italic;
+}
+
+.bg-color {
+  background: linear-gradient(357.04deg, rgba(236, 255, 117, 0.2) -5.73%, rgba(236, 255, 117, 0) 79.01%), linear-gradient(70.05deg, rgba(244, 0, 88, 0.05) -16.64%, rgba(255, 255, 255, 0) 76.66%), linear-gradient(239.63deg, rgba(0, 215, 244, 0.05) 7.75%, rgba(255, 255, 255, 0) 104.23%);
+}
+
+.fonte {
+  display: block;
+  margin-top: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+dd {
+  color: #41424A;
+}
+
+.whats-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.nao-aparece {
+  display: none;
+  position: absolute;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+  h3:before {
+    content: url(/img/birds.svg);
+    margin-right: 10px;
+    display: block;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+  h3:before {
+    content: url(/img/birds.svg);
+    margin-right: 10px;
+    display: block;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    font-family: 'afterglow', serif;
+  }
+}

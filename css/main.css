@@ -1,0 +1,111 @@
+.main {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  margin: 0 auto;
+  max-width: 1100px;
+  grid-gap: 80px;
+  padding: 80px 20px 120px 20px;
+  align-items: center;
+}
+
+.main-card p {
+  color: #41424A;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.grid-card {
+  position: relative;
+  max-width: 550px;
+  height: 500px;
+}
+
+.card-image {
+  position: absolute;
+  max-width: 320px ;
+  height: 400px;
+  left: 0;
+  top: 0;
+}
+.card-image img {
+ border-radius: 10px;
+ box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card-form {
+  position: absolute;
+  background: #F9FEFF;
+  border-radius: 10px;
+  max-width: 320px ;
+  height: 400px;
+  right: 0;
+  bottom: 0;
+  padding: 40px 40px 0px 40px;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.1);
+}
+.card-form h4, .card-footer h4{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card-form input, .card-form textarea, .card-footer input, .card-footer textarea{
+  border: none;
+  border-bottom: 1px solid #41424A;
+  border-color: rgba(0, 0, 0, 0.1);
+  height: 30px;
+  text-indent: 0.25rem;
+}
+.card-form input, .card-form textarea, .card-footer input, .card-footer textarea{
+  margin-top: 20px;
+}
+
+.btn {
+  display: block;
+  width: max-content;
+  font-size: 1.25rem;
+  margin: 40px auto 0px auto;
+  text-decoration: underline;
+}
+.btn::after {
+  content: url(/img/Arrow.svg);
+  margin-left: 5px;
+}
+
+form input::placeholder, form textarea::placeholder  {
+  font-style: italic;
+  opacity: .5;
+}
+
+@media only screen and (min-width:701px) and (max-width:1030px) {
+  .main {
+    grid-template-columns: 600px;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width:596px) and (max-width:700px) {
+  .main {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 80px 20px 180px 20px;
+    max-width: 400px;
+  }
+
+  .card-form {
+    bottom: -120px;
+  }
+}
+@media only screen and (min-width:0px) and (max-width:595px) {
+  .main {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 80px 20px 180px 20px;
+    max-width: 400px;
+  }
+
+  .card-form {
+    bottom: -120px;
+    padding: 40px 20px 0px 20px;
+
+  }
+
+}

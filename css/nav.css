@@ -1,0 +1,19 @@
+/*Nav*/
+[data-tab="content"] section {
+  display: none;
+}
+[data-tab="content"] section.ativo {
+  display: grid !important;
+}
+
+
+@keyframes show-right {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(30px, 0, 0);
+  }
+}

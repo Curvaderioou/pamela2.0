@@ -1,0 +1,25 @@
+.sobre {
+  padding: 120px 0px;
+}
+
+.sobre-grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  grid-gap: 40px;
+  margin-top: 40px;
+}
+.sobre-grid dt{
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.sobre-grid dd{
+  font-size: 1.125rem;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1250px) {
+  .sobre-grid {
+    grid-template-columns:  1fr;
+    max-width: 600px;
+  }
+  
+}

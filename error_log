@@ -1,0 +1,9 @@
+[19-Apr-2022 01:51:19 UTC] PHP Warning:  require(./PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/e9eozoyz/public_html/enviar.php on line 6
+[19-Apr-2022 01:51:19 UTC] PHP Warning:  require(./PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/e9eozoyz/public_html/enviar.php on line 6
+[19-Apr-2022 01:51:19 UTC] PHP Fatal error:  require(): Failed opening required './PHPMailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/e9eozoyz/public_html/enviar.php on line 6
+[19-Apr-2022 01:55:29 UTC] PHP Warning:  require(./PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/e9eozoyz/public_html/enviar.php on line 6
+[19-Apr-2022 01:55:29 UTC] PHP Warning:  require(./PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/e9eozoyz/public_html/enviar.php on line 6
+[19-Apr-2022 01:55:29 UTC] PHP Fatal error:  require(): Failed opening required './PHPMailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/e9eozoyz/public_html/enviar.php on line 6
+[19-Apr-2022 01:55:52 UTC] PHP Warning:  require(./PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/e9eozoyz/public_html/enviar.php on line 6
+[19-Apr-2022 01:55:52 UTC] PHP Warning:  require(./PHPMailer/src/Exception.php): failed to open stream: No such file or directory in /home/e9eozoyz/public_html/enviar.php on line 6
+[19-Apr-2022 01:55:52 UTC] PHP Fatal error:  require(): Failed opening required './PHPMailer/src/Exception.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/e9eozoyz/public_html/enviar.php on line 6
