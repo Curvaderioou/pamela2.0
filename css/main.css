@@ -12,6 +12,7 @@
   color: #41424A;
   font-size: 1.5rem;
   line-height: 1.75rem;
+  margin-bottom: 40px;
 }
 
 .grid-card {
@@ -59,11 +60,15 @@
   margin-top: 20px;
 }
 
+#textarea {
+  height: 80px;
+}
+
 .btn {
   display: block;
   width: max-content;
   font-size: 1.25rem;
-  margin: 40px auto 0px auto;
+  margin:  0px auto;
   text-decoration: underline;
 }
 .btn::after {

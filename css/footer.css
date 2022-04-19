@@ -18,9 +18,11 @@
 
 .copy {
   display: grid;
-  grid-template-columns: 1fr auto;
-  padding: 5px 10px;
+  grid-template-columns: 1fr ;
+  padding: 10px 10px;
   align-items: center;
+  justify-items: start;
+  grid-gap: 10px;
 }
 
 .redes-sociais {
@@ -46,9 +48,15 @@
     padding: 80px 0px;
   }
   
+  .copy {
+    justify-items: center
+  }
 }
 @media only screen and (min-width: 0px) and (max-width:550px) {
   .cite {
     font-size: 1.25rem;
+  }
+  .copy {
+    justify-items: center
   }
 }

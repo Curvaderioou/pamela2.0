@@ -81,8 +81,25 @@ dd {
 
 .whats-fixed {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 50px;
+  right: 50px;
+  animation: movebtn 2s infinite;
+  z-index: 999999999;
+}
+
+@keyframes movebtn {
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 .nao-aparece {
