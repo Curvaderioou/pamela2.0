@@ -1,0 +1,13 @@
+.privacidade {
+  padding: 80px 20px;
+}
+.privacidade p{
+  margin-bottom: 10px;
+}
+.privacidade h3{
+  margin-top: 40px;
+}
+.privacidade h4{
+  margin: 20px 0px 10px 0px;
+  font-size: 1.25rem;
+}

@@ -24,6 +24,9 @@
   justify-items: start;
   grid-gap: 10px;
 }
+.copy p a{
+  display: inline;
+}
 
 .redes-sociais {
   display: grid;
